@@ -1,0 +1,92 @@
+nav{
+    border-top: solid rgb(183, 180, 180) ;
+    border-bottom: solid rgb(155, 213, 155) 10px;
+}
+.div1 {
+    display: inline-block;
+    height: 36px;
+}
+.div1 p {
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    margin: 21px 0 0 36px;
+}
+.div2 {
+    display: inline-block;
+    margin: 0px 0 6px 939px;
+}
+#menu_sidebar{
+    display: none;
+}
+.div-welcome-1 {
+    display: inline-block;
+    margin: 50px 0 0 50px;
+    width: 1107px;
+    background-color: lightgray;
+    padding: 22px 0;
+    border-top: solid rgb(155, 213, 155) 6px;
+}
+.div-welcome-2 {
+    display: inline-block;
+    width: 629px;
+    text-align: start;
+}
+.title-1{
+    margin-bottom: 24px;
+}
+.subtitle-1{
+    margin-bottom: 53px;
+}
+.paragraph-1{
+    margin-bottom: 40px;
+}
+.button-learn-more{
+    margin: 210px 0 0 20px;
+    background-color: aquamarine;
+}
+.imagen-1{
+    height: 526px;
+    width: 474px;
+}
+.iconomenu{
+width: 42px;
+height: 42px;
+}
+nav {
+    border-top: solid rgb(183, 180, 180);
+    border-bottom: solid rgb(155, 213, 155) 6px;
+}
+.primer-imagen{
+    width: 29px;
+}
+.appointment{
+    border: solid;
+}
+.div-features{
+    border:solid;
+}
+#content-features{
+    border: solid yellow;
+}
+.div-content-features {
+    border: solid blue;
+    display: inline-block;
+    padding-top: 43px;
+}
+.mini-content-features {
+    width: 300px;
+    border: solid grey;
+    display: inline-block;
+    padding-top: 62px;
+}
+.icon-features{
+    border: solid;
+    display: inline-block;
+}
+.imagen-feature {
+    border: solid pink;
+    width: 142px;
+    margin: 41px;
+    /* display: inline-block; */
+}

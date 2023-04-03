@@ -4,28 +4,30 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
         <title>Document</title>
     </head>
     <body>
         <header>
+            <div class="Iconomenu">
+                <img src="img/Iconburguer.svg" alt="iconomenu">
+            </div>
             <nav>
-                <div>
-                    <div>
-                        <h1>Mega Rocket</h1>
-                    </div>
-                    <div>
-                        <img src="img/linkedin.svg" alt="linkedin">
-                        <img src="img/twitter.svg" alt="twitter">
-                        <img src="img/facebook.svg" alt="facebook">
-                        <img src="img/intagram.svg" alt="instagram">
-                        <img src="img/github.svg" alt="github">
-                    </div>
+                <div class="div1">
+                    <p>Mega Rocket</p>
+                </div>
+                <div class="div2">
+                    <img class="primer-imagen" id="first-element" src="img/linkedin.svg" alt="linkedin">
+                    <img  class="primer-imagen" src="img/twitter.svg" alt="twitter">
+                    <img class="primer-imagen" src="img/facebook.svg" alt="facebook">
+                    <img class="primer-imagen" src="img/intagram.svg" alt="instagram">
+                    <img class="primer-imagen " src="img/github.svg" alt="github">
                 </div>
             </nav>
-            <div>
-                <input type="Search" placeholder="Search">
+            <div id="menu_sidebar">
                 <div>
-                    <h2>Menu</h2>   
+                    <input type="Search" placeholder="Search">
+                    <h2>Menu</h2>
                 </div>
                 <div>
                     <ul>
@@ -35,7 +37,6 @@
                         <li>Contact information</li>
                     </ul>
                 </div>
-            </div>
                 <div>
                     <h2>Contact us</h2>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis odio repudiandae ullam iure ea
@@ -43,37 +44,84 @@
                         veritatis, odit laborum.
                     </p>
                 </div>
-            <div>
-                <img src="img/mail.svg" alt="mail">
-                <p>info.megarocket@megarocket.com</p>
-                <img src="img/telephone.svg" alt="Phone">
-                <p>54-341-xxxxxxxxxx</p>
-                <img src="img/contact.svg" alt="Adress">
-                <p>AAA xxx, Rosario, Argentina, CP 2000</p>
+                <div>
+                    <img src="img/mail.svg" alt="mail">
+                    <p>info.megarocket@megarocket.com</p>
+                    <img src="img/telephone.svg" alt="Phone">
+                    <p>54-341-xxxxxxxxxx</p>
+                    <img src="img/contact.svg" alt="Adress">
+                    <p>AAA xxx, Rosario, Argentina, CP 2000</p>
+                </div>
             </div>
         </header>
         <main>
-            <div>
-                <h2>Welcome to Mega Rocket</h2>
-                <h3>Winner of Lorem Ipsum of the year</h3>
-                <button>Learn more</button>
-                <p>Texto</p>
-                <img src="img/Megrocket.png" alt="members">
+            <div class="div-welcome-1">
+                <div class="div-welcome-2">
+                    <h2 class="title-1">Welcome to Mega Rocket</h2>
+                    <h3 class="subtitle-1">Winner of Lorem Ipsum of the year</h3>
+                    <p class="paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex repellat a tempore obcaecati reprehenderit magnam,
+                        natus, dicta repudiandae, numquam facere tenetur! Vitae, veniam eveniet facilis accusantium unde reprehenderit eum!
+                    </p>
+                    <button class="button-learn-more">Learn more</button>
+                </div>
+                <img src="img/Megrocket.png" alt="members" class="imagen-1">
             </div>
-            <div>
+            <div id="content-features">
                 <h2>App Features</h2>
-                <img src="img/Vector1.svg" alt="pencil">
-                <h2>Appointment booking</h2>
-                <p>Texto</p>
-                <img src="img/Vector2.svg" alt="calendary">
-                <h2>Schedule and timetables</h2>
-                <p>texto</p>
-                <img src="img/Vector3.svg" alt="icono membership">
-                <h2>Membership manegement</h2>
-                <p>texto</p>
-                <img src="img/vector4.svg" alt="icono contacto">
-                <h3>Contact and suggestions</h3>
-                <p>texto</p>
+                <div class="div-features">
+                    <div class="div-content-features">
+                        <img class="imagen-feature" src="img/Vector1.svg" alt="pencil">
+                        <div class="mini-content-features">
+                            <h2>Appointment booking</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet dolorum perspiciatis
+                             nostrum illum nemo vero, debitis blanditiis.
+                             consequuntur enim temporibus, quos officia commodi. Accusamus recusandae voluptatum magnam illo.
+                             Architecto voluptate, quibusdam tenetur dolores consectetur cum deserunt aliquam veniam eos sap.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="div-content-features">
+                        <div class="icon-features">
+                            <img class="imagen-feature" src="img/Vector3.svg" alt="icono membership">
+                        </div>
+                        <div class="mini-content-features">
+                            <h2>Membership manegement</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet dolorum perspiciatis
+                            nostrum illum nemo vero, debitis blanditiis.
+                            consequuntur enim temporibus, quos officia commodi. Accusamus recusandae voluptatum magnam illo.
+                            Architecto voluptate, quibusdam tenetur dolores consectetur cum deserunt aliquam veniam eos sap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="div-features">
+                    <div class="div-content-features">
+                        <div class="icon-features">
+                            <img src="img/Vector2.svg" class="imagen-feature" alt="calendary">
+                        </div>
+                        <div class="mini-content-features">
+                            <h2>Schedule and timetables</h2>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet dolorum perspiciatis
+                            nostrum illum nemo vero, debitis blanditiis.
+                            consequuntur enim temporibus, quos officia commodi. Accusamus recusandae voluptatum magnam illo.
+                            Architecto voluptate, quibusdam tenetur dolores consectetur cum deserunt aliquam veniam eos sap.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="div-content-features">
+                        <div class="icon-features">
+                            <img src="img/vector4.svg" class="imagen-feature" alt="icono contacto">
+                        </div>
+                        <div class="mini-content-features">
+                            <h3>Contact and suggestions</h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam eveniet dolorum perspiciatis
+                            nostrum illum nemo vero, debitis blanditiis.
+                            consequuntur enim temporibus, quos officia commodi. Accusamus recusandae voluptatum magnam illo.
+                            Architecto voluptate, quibusdam tenetur dolores consectetur cum deserunt aliquam veniam eos sap.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <h3>Contact</h3>
@@ -95,7 +143,7 @@
                         <button>Clean</button>
                         <button>Send</button>
                     </form>
-                    </div>
+            </div>
             <div>
                 <h3>History</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sapiente veniam,
@@ -113,7 +161,7 @@
                     pariatur dolor dolorum odio, modi ut, impedit quos architecto itaque, dolorem ratione
                     sequi maiores blanditiis eligendi at soluta. Odit, harum.
                 </p>
-            </div> 
+            </div>
                 <div>
                     <img src="img/pesas1.png" alt="weight">
                 </div>
