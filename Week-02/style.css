@@ -63,30 +63,34 @@ nav {
 .appointment{
     border: solid;
 }
-.div-features{
-    border:solid;
+.div-features {
+    margin-left: 35px;
 }
 #content-features{
-    border: solid yellow;
 }
 .div-content-features {
-    border: solid blue;
     display: inline-block;
-    padding-top: 43px;
+    margin: 15px;
+    width: 550px;
 }
 .mini-content-features {
     width: 300px;
-    border: solid grey;
     display: inline-block;
-    padding-top: 62px;
+    font-size: 12px;
 }
 .icon-features{
     border: solid;
     display: inline-block;
 }
-.imagen-feature {
-    border: solid pink;
+.imagen-feature-1, .imagen-feature-2 {
     width: 142px;
-    margin: 41px;
+    height: 100px;
+    margin-top: 20px;
+    /* margin: 41px; */
+    float: left;
     /* display: inline-block; */
+}
+.div-form{
+    color: red;
+    display: inline-block;
 }
