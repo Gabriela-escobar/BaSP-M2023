@@ -1,20 +1,30 @@
+body {
+    font-family: 'Roboto', sans-serif, Arial;
+}
 nav{
-    border-top: solid rgb(183, 180, 180) ;
-    border-bottom: solid rgb(155, 213, 155) 10px;
+    border-top: solid #686977;
+    border-bottom: solid #AACE9B 10px;
+    margin: 0 35px;
+}
+main {
+    border-bottom:solid #AACE9B 5px;
 }
 .div1 {
     display: inline-block;
-    height: 36px;
+    height: 40px;
+    margin-top: 20px;
 }
+
 .div1 p {
-    color: grey;
-    font-family: 'Times New Roman', Times, serif;
+    color: #686977;
+    font-family: 'Roboto';
+    font-size: 23px;
     display: inline-block;
     margin: 21px 0 0 36px;
 }
 .div2 {
     display: inline-block;
-    margin: 0px 0 6px 939px;
+    margin: 0px 0 6px 838px;
 }
 #menu_sidebar{
     display: none;
@@ -23,9 +33,10 @@ nav{
     display: inline-block;
     margin: 50px 0 0 50px;
     width: 1107px;
+    height: 394px;
     background-color: lightgray;
-    padding: 22px 0;
-    border-top: solid rgb(155, 213, 155) 6px;
+    padding: 22px 25px;
+    border-top: solid #AACE9B 6px;
 }
 .div-welcome-2 {
     display: inline-block;
@@ -34,19 +45,28 @@ nav{
 }
 .title-1{
     margin-bottom: 24px;
+    color: #373867;
 }
 .subtitle-1{
     margin-bottom: 53px;
+    color: #686977;
 }
-.paragraph-1{
+.div-origin p, .div-origin
+.paragraph-1 {
     margin-bottom: 40px;
+    width: 544px;
+    font-size: 17px;
+    letter-spacing: 1px ;
 }
-.button-learn-more{
-    margin: 210px 0 0 20px;
-    background-color: aquamarine;
+.button-learn-more {
+    margin: 24px 0px 0px 20px;
+    background-color: #AACE9B;
+    padding: 9px;
+    border: solid #8080801f 0.5px;
 }
-.imagen-1{
-    height: 526px;
+.imagen-1 {
+    height: 400px;
+    float: right;
     width: 474px;
 }
 .iconomenu{
@@ -54,8 +74,8 @@ width: 42px;
 height: 42px;
 }
 nav {
-    border-top: solid rgb(183, 180, 180);
-    border-bottom: solid rgb(155, 213, 155) 6px;
+    border-top: solid #686977; 
+    border-bottom: solid #AACE9B 6px;
 }
 .primer-imagen{
     width: 29px;
@@ -66,8 +86,7 @@ nav {
 .div-features {
     margin-left: 35px;
 }
-#content-features{
-}
+
 .div-content-features {
     display: inline-block;
     margin: 15px;
@@ -91,6 +110,130 @@ nav {
     /* display: inline-block; */
 }
 .div-form{
-    color: red;
     display: inline-block;
+    margin-left: 68px;
+}
+.div-form-1{
+    color: rgb(20, 20, 22);
+    display: block;
+}
+.div-form-2{
+    display: inline-block;
+    width: 312px;
+    margin-right: 20px;
+    height: 31px;
+    font-size: 18px;
+}
+.div-form-2 input{
+    width: 260px;
+}
+.div-contact label{
+    display: block;
+    margin: 10px 0 0 0;
+    color: rgb(20, 20, 22);
+    font-size: 18px;
+
+}
+.div-message label{
+    display: block;
+    margin: 10px 0 0 0;
+    color:rgb(20, 20, 22);
+    font-size: 18px;
+}
+.div-origin-2{
+    margin-top: 42px;
+}
+.div-origin{
+    display: inline-block;
+    width: 554px;
+    margin-left: 66px;
+}
+.div-origin img{
+    width: 554px;
+    height: 300px;
+}
+.history{
+    margin-left:66px ;
+}
+.app-features{
+    margin-left: 66px;
+}
+.div-memberships{
+    display: inline-block;
+    margin: 15px 15px 15px 66px;
+    width: 550px;
+}
+.div-memberships img{
+    display: inline-block ;
+}
+.activities{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+#only-classes{
+    width: 140px;
+    height: 140px;
+}
+.only-classes-2{
+    margin: 0 0 10px 42px;
+}
+#text-activities{
+    margin: 16px 21px 56px 60px;
+}
+.end-buttons{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.end-buttons button {
+    background-color: white;
+    margin: 0 10px 0 10px;
+    color: #AACE9B;
+    border: solid #AACE9B 0.5px;
+    border-radius: 4px;
+    padding: 6px 16px;
+}
+.social-network{
+    margin-top: 20px;
+    text-align: center;
+}
+.social-network img{
+    width: 40px;
+    height: 40px;
+}
+.copyright{
+    text-align: center;
+}
+#text-area{
+width: 1066px;
+height: 78px;
+}
+#contact-reason{
+    width: 550px;
+}
+.div-buttons button{
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+#button-send {
+    background-color: #AACE9B;
+    border: none;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+#button-clean {
+    background-color: white;
+    padding: 4px 20px;
+    border: solid black 0.5px;
+    font-weight: bold;
+}
+.grey-text{
+    color: #AACE
+}
+#origin-text{
+    color: #686977;
+}
+#paragraph{
+    color: #686977
 }

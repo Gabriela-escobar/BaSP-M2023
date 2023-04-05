@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <title>Document</title>
     </head>
     <body>
@@ -57,9 +60,11 @@
         <main>
             <div class="div-welcome-1">
                 <div class="div-welcome-2">
-                    <h2 class="title-1">Welcome to Mega Rocket</h2>
+                    <h2 class="title-1">Welcome to MEGA ROCKET</h2>
                     <h3 class="subtitle-1">Winner of Lorem Ipsum of the year</h3>
-                    <p class="paragraph-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex repellat a tempore obcaecati reprehenderit magnam,
+                    <p id="paragraph" class="paragraph-1">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex repellat a tempore obcaecati reprehenderit magnam,
+                        natus, dicta repudiandae, numquam facere tenetur! Vitae, veniam eveniet facilis accusantium unde reprehenderit eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ex repellat a tempore obcaecati reprehenderit magnam,
                         natus, dicta repudiandae, numquam facere tenetur! Vitae, veniam eveniet facilis accusantium unde reprehenderit eum!
                     </p>
                     <button class="button-learn-more">Learn more</button>
@@ -67,7 +72,7 @@
                 <img src="img/Megrocket.png" alt="members" class="imagen-1">
             </div>
             <div id="content-features">
-                <h2>App Features</h2>
+                <h2 class="app-features">App Features</h2>
                 <div class="div-features">
                     <div class="div-content-features">
                         <img class="imagen-feature-1" src="img/Vector1.svg" alt="pencil">
@@ -120,97 +125,119 @@
             <div class="div-form">
                 <h3>Contact</h3>
                     <form>
-                        <label>Nombre</label>
-                        <input placeholder="write here" type="text">
-                        <label>Last name</label>
-                        <input placeholder="Write here" type="text">
-                        <label>Email</label>
-                        <input placeholder="Write here" type="text">
-                        <label>Contact reason</label>
-                    <select>
-                        <option value="Inscription">Inscription</option>
-                        <option value="Change membership">Change membership/option>
-                        <option value="Dudas y sugerencias">DudasSugerencias</option>
-                    </select>
-                        <label>Message</label>
-                        <textarea name="Message"></textarea>
-                        <button>Clean</button>
-                        <button>Send</button>
+                        <div class="div-form-1">
+                            <div class="div-form-2">
+                                <label>Nombre</label>
+                                <input placeholder="write here" type="text">
+                            </div>
+                            <div class="div-form-2">
+                                <label>Last name</label>
+                                <input placeholder="Write here" type="text">
+                            </div>
+                            <div class="div-form-2">
+                                <label>Email</label>
+                                <input placeholder="Write here" type="text">
+                            </div>
+                        </div>
+                        <div class="div-contact">
+                            <label>Contact reason</label>
+                        <select id="contact-reason">
+                            <option value="Inscription">Inscription</option>
+                            <option value="Change membership">Change membership/option>
+                            <option value="Dudas y sugerencias">DudasSugerencias</option>
+                        </select>
+                        </div>
+                        <div class="div-message">
+                            <label>Message</label>
+                            <textarea id="text-area" name="Message"></textarea>
+                        </div>
+                        <div class="div-buttons">
+                            <button id="button-clean">Clean</button>
+                            <button id="button-send">Send</button>
+                        </div>
                     </form>
             </div>
-            <div>
-                <h3>History</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sapiente veniam,
+            <div class="history">
+                <h3 id="black-title">History</h3>
+                <p class="grey-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sapiente veniam,
                     neque optio tenetur enim est quae eius aperiam placeat dolorum atque corporis nisi
                     minima perspiciatis ea qui, incidunt similique.
                 </p>
             </div>
-            <div>
-                <h3>Origin</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus recusandae deserunt
-                    quod veritatis reiciendis, accusamus illum sint cumque itaque, est obcaecati neque
-                    modi nam perferendis molestiae error? Ipsam, consequuntur est.
-                    Quisquam suscipit ullam, nobis repellat praesentium rem tempore. Temporibus laboriosam
-                    pariatur dolor dolorum odio, modi ut, impedit quos architecto itaque, dolorem ratione
-                    sequi maiores blanditiis eligendi at soluta. Odit, harum.
-                </p>
-            </div>
-                <div>
-                    <img src="img/pesas1.png" alt="weight">
-                </div>
-                <div>
-                    <img src="img/pesas2.png" alt="wight2">
-                </div>
-                <div>
-                    <h3>Mission</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem deleniti obcaecati 
-                        at aliquam iusto aspernatur accusamus dignissimos earum rerum, voluptates sed officia 
-                        blanditiis ab. Eaque aliquam aliquid dis3inctio quos alias. Ratione sed maiores hic veniam 
-                        dignissimos pariatur maxime, vel numquam fugiat ut eius enim voluptates accusamus vitae ea 
-                        ullam cumque facilis quae iusto! Eos maiores praesentium est minima enim consequatur.
+            <div class="div-origin">
+                <div class="div-origin-2">
+                    <h3 id="origin-text">Origin</h3>
+                    <p class="grey-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus recusandae deserunt
+                        quod veritatis reiciendis, accusamus illum sint cumque itaque, est obcaecati neque
+                        modi nam perferendis molestiae error? Ipsam, consequuntur est.
+                        Quisquam suscipit ullam, nobis repellat praesentium rem tempore. Temporibus laboriosam
+                        pariatur dolor dolorum odio, modi ut, impedit quos architecto itaque, dolorem ratione
+                        sequi maiores blanditiis eligendi at soluta. Odit, harum.
                     </p>
                 </div>
-            <div>
+                <img src="img/pesas1.png" alt="weight">
+            </div>
+            <div class="div-origin">
+                <img src="img/pesas2.png" alt="wight2">
+                <div class="div-origin-2">
+                    <h3>Mission</h3>
+                    <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem deleniti obcaecati 
+                            at aliquam iusto aspernatur accusamus dignissimos earum rerum, voluptates sed officia 
+                            blanditiis ab. Eaque aliquam aliquid dis3inctio quos alias. Ratione sed maiores hic veniam 
+                            dignissimos pariatur maxime, vel numquam fugiat ut eius enim voluptates accusamus vitae ea 
+                            ullam cumque facilis quae iusto! Eos maiores praesentium est minima enim consequatur.
+                    </p>
+                </div>
+            </div>
+            <div class="div-memberships">
                 <img src="img/weights.svg" alt="icon wight">
-                <h3>Activities</h3>
-                <ol>
-                    <li>Crossfit</li>
-                    <li>Spinning
-                    <li>Functional</li>
-                    <li>Boxing</li>
-                    <li>Fitness</li>
-                </ol>
+                <div class="activities">
+                    <h3>Activities</h3>
+                    <ol>
+                        <li>Crossfit</li>
+                        <li>Spinning
+                        <li>Functional</li>
+                        <li>Boxing</li>
+                        <li>Fitness</li>
+                    </ol>
+                </div>
             </div>
-            <div>
+            <div class="div-memberships">
                 <img src="img/cards2.svg" alt="black memership">
-                <h2>Black membershp</h2>
-                <ol>
-                    <li>Free pass to the weight room</li>
-                    <li>Free pass to the lessons</li>
-                    <li>Personalized follow up by a trainer</li>
-                    <li>Grid visualization</li>
-                </ol>
+                <div class="activities">
+                    <h2>Black membershp</h2>
+                    <ol>
+                        <li>Free pass to the weight room</li>
+                        <li>Free pass to the lessons</li>
+                        <li>Personalized follow up by a trainer</li>
+                        <li>Grid visualization</li>
+                    </ol>
+                </div>
             </div>
-            <div>
-            <img src="img/cards3.svg" alt="clasic membership">
-            <h3>Classic membership</h3>
-                <ol>
-                    <li>Free pass to the weight room</li>
-                    <li>Personalized follow up by a trainer</li>
-                    <li>Grid visualization</li>
-                </ol>
+            <div class="div-memberships">
+                <img src="img/cards3.svg" alt="clasic membership">
+                <div class="activities">
+                    <h3>Classic membership</h3>
+                    <ol>
+                        <li>Free pass to the weight room</li>
+                        <li>Personalized follow up by a trainer</li>
+                        <li>Grid visualization</li>
+                    </ol>
+                </div>
             </div>
-            <div>
-                <img src="img/cards4.svg" alt="only classes membership">
-                <h3>Only classes membership</h3>
-                <ol>
-                    <li>Free pass to the weight room</li>
-                    <li>Grid visualization</li>
-                </ol>
+            <div class="div-memberships">
+                <img id="only-classes" src="img/cards4.svg" alt="only classes membership">
+                <div class="activities">
+                    <h3 id="text-activities" >Only classes membership</h3>
+                    <ol class="only-classes-2">
+                        <li>Free pass to the weight room</li>
+                        <li>Grid visualization</li>
+                    </ol>
+                </div>
             </div>
-            <div>
+            <div class="end-buttons">
                 <button>Prev</button>
                 <button>1</button>
                 <button>2</button>
@@ -222,15 +249,15 @@
             </div>
         </main>
         <footer>
-        <div>
+        <div class="social-network">
             <img src="img/linkedin.svg" alt="linkedin">
             <img src="img/twitter.svg" alt="twitter">
             <img src="img/facebook.svg" alt="facebook">
             <img src="img/intagram.svg" alt="instagram">
             <img src="img/github.svg" alt="github">
         </div>
+        <div class="copyright">
         <p>Rosario, Argentina</p>
-        <div>
         <p>Copyright © 2022 Mega Rocket All rights reserved</p>
         </div>
         </footer>
